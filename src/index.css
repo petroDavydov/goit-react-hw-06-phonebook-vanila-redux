@@ -7,14 +7,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+
+/* background: linea-gradient(to left red,green, blue); */
+background: linear-gradient(90deg, #412328 0%, #643c3b 20%, #90584a 40%, #c0885d 60%, #d4bb6c 80%, #643c3b 100%);
+
 }
+/* .color1 {color: #412328;}
+.color2 {color: #643c3b;}
+.color3 {color: #90584a;}
+.color4 {color: #c0885d;}
+.color5 {color: #d4bb6c;} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.contactTitle {
-  font-size: 2em;
-  font-weight: bold;
 }
